@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 @font-face {
-  font-family:"farsi";
+  font-family: "farsi";
   src: url("Font/Far_TitrBd.ttf") format("woff2");
 }
 :root {
@@ -29,7 +29,7 @@ html {
   margin: 0;
   color: white;
   font-family: "Noto Nastaliq Urdu", serif;
-  font-family: "farsi","Rubik", sans-serif;
+  font-family: "farsi", "Rubik", sans-serif;
   background-color: rgb(0, 0, 0);
   scroll-behavior: smooth;
 }
@@ -576,22 +576,20 @@ div {
 }
 
 @media (max-width: 1380px) {
-
   .cards {
     margin-top: 50px;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
   }
-
-  .about_me_text h3 {
-    width: 100%;
-  }
-
+}
+.about_me_text h3 {
+  width: 100%;
+}
 
 @media (max-width: 1145px) {
   #prject_container {
-    display:flex;
+    display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
@@ -654,7 +652,9 @@ div {
   .about_me_text {
     /* background-color: rebeccapurple; */
     width: 100%;
-    margin-right: 50px;
+    padding: 0;
+    padding: 20px;
+    /* margin-right: 50px; */
   }
   .about_me_text h1 {
     /* background-color: red; */

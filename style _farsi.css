@@ -576,29 +576,23 @@ div {
 }
 
 @media (max-width: 1380px) {
+
   .cards {
     margin-top: 50px;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
   }
-  .card {
-    /* background-color: red; */
-  }
 
-  /* .about_me_img{
-    display: none;
-  } */
   .about_me_text h3 {
     width: 100%;
   }
 
-  #prject_container {
-  }
-}
+
 @media (max-width: 1145px) {
   #prject_container {
-    flex-direction: column;
+    display:flex;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     padding: 50px;
